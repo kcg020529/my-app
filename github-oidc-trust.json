@@ -4,15 +4,14 @@
     {
       "Effect": "Allow",
       "Principal": {
-        "Federated": "arn:aws:iam::637423638906:oidc-provider/token.actions.githubusercontent.com"
+        "Federated": "arn:aws:iam::347447668979:oidc-provider/token.actions.githubusercontent.com"
       },
       "Action": "sts:AssumeRoleWithWebIdentity",
       "Condition": {
         "StringEquals": {
           "token.actions.githubusercontent.com:aud": "sts.amazonaws.com",
           "token.actions.githubusercontent.com:sub": [
-          "repo:yundo-main/my-app:ref:refs/heads/main",
-          "repo:yundo-main@288207262/my-app@1427729982:ref:refs/heads/main"
+          "repo:kcg020529/my-app:ref:refs/heads/main"
         ]
         }
       }

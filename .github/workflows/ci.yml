@@ -22,8 +22,8 @@ jobs:
     env:
       AWS_REGION: ap-northeast-2
       ECR_REPOSITORY: fastapi-backend
-      AWS_ACCOUNT_ID: "637423638906"
-      MANIFEST_REPOSITORY: yundo-main/my-k8s-manifests
+      AWS_ACCOUNT_ID: "347447668979"
+      MANIFEST_REPOSITORY: kcg020529/my-k8s-manifests
 
     steps:
       - name: Checkout source
